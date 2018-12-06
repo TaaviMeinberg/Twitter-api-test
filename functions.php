@@ -12,7 +12,7 @@
   $content = $connection->get("account/verify_credentials");
 
   $statuses = $connection->get("statuses/home_timeline", ["count" => 1, "exclude_replies" => true]);
-  $search = $connection->get("search/tweets", ["q" => "Estonia", "count" => 1]);
+  $search = $connection->get("search/tweets", ["q" => "%23Estonia", "result_type"=>"recent", "count" => 1, "include_entities"=> "false"]);
 
   print_r($search);
 ?>
