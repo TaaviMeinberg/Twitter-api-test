@@ -23,6 +23,8 @@
 }(document, "script", "twitter-wjs"));</script>
   </head>
   <body>
+ <center>
+
   <?php
 ?>
 <div id="content"> </div>
@@ -42,5 +44,7 @@
 			}
       loadTweets();
     </script>
+</center>
+
   </body>
 </html>
