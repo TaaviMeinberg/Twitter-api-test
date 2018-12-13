@@ -23,6 +23,9 @@
 }(document, "script", "twitter-wjs"));</script>
   </head>
   <body>
+ <center>
+   <a href="http://greeny.cs.tlu.ee/~lawralex/RP/estonianTweets.php">Eestlaste säutsud</a>
+
   <?php
 ?>
 <div id="content"> </div>
@@ -42,5 +45,7 @@
 			}
       loadTweets();
     </script>
+</center>
+
   </body>
 </html>
