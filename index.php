@@ -23,8 +23,9 @@
 }(document, "script", "twitter-wjs"));</script>
   </head>
   <body>
-  <?php
-?>
+  <center>
+  <a href="./estonianTweets.php">Eestlaste säutsud</a>
+  
 <div id="content"> </div>
 <button id="loadButton" onclick="loadTweets()">LOAD MORE</button>
      <script>
@@ -42,5 +43,6 @@
 			}
       loadTweets();
     </script>
+    </center>
   </body>
 </html>

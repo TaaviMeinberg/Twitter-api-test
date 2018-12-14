@@ -23,8 +23,8 @@
 }(document, "script", "twitter-wjs"));</script>
   </head>
   <body>
-  <?php
-?>
+  <center>
+<a href="./index.php">#Estonia</a>
 <div id="content"> </div>
 <button id="loadButton" onclick="loadTweets()">LOAD MORE</button>
      <script>
@@ -37,10 +37,11 @@
                 twttr.widgets.load(document.getElementById("content"));
 						}
 				}
-				xmlhttp.open("GET","php/getEstonianTweets.php?q="+lastId,true);
+				xmlhttp.open("GET","getEstonianTweets.php?q="+lastId,true);
 				xmlhttp.send();
 			}
       loadTweets();
     </script>
+    </center>
   </body>
 </html>

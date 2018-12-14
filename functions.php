@@ -1,5 +1,5 @@
 <?php
-  require './php/auth.php';
+  require './auth.php';
   $content = $connection->get("account/verify_credentials");
 
   $statuses = $connection->get("statuses/home_timeline", ["count" => 1, "exclude_replies" => true]);
